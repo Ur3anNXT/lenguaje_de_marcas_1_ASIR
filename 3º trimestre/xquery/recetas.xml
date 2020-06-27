@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<recetas>
+	<receta>
+    <titulo>Pan</titulo>
+    <ingredientes>
+        <ingrediente cantidad="300g">Harina de trigo</ingrediente>
+        <ingrediente cantidad="500ml">Agua</ingrediente>
+				<ingrediente cantidad="5g">Levadura</ingrediente>
+				<ingrediente cantidad="5ml">Aceite de oliva</ingrediente>
+    </ingredientes>
+    <preparacion>
+        <paso>Mezclar harina con agua</paso>
+        <paso>Mover bien</paso>
+        <paso>Dejar reposar</paso>
+        <paso>Dar forma a la masa</paso>
+        <paso>Hornear</paso>
+    </preparacion>
+    <comentario>No apto para celíacos</comentario>
+    <nutricion calorias="200" grasas="5" carbohidratos="180" proteinas="10" alcochol="0"></nutricion>
+  </receta>
+	<receta>
+    <titulo>Mousse de chocolate</titulo>
+    <ingredientes>
+        <ingrediente cantidad="500g">Chocolate</ingrediente>
+        <ingrediente cantidad="500ml">Leche</ingrediente>
+        <ingrediente cantidad="4">Huevo</ingrediente>
+				<ingrediente cantidad="100g">Azúcar</ingrediente>
+    </ingredientes>
+    <preparacion>
+        <paso>Derretir el chocolate</paso>
+        <paso>Mezclar con los demás ingredientes</paso>
+        <paso>Dejar enfriar en la nevera</paso>
+    </preparacion>
+    <comentario>No apto para intolerantes a la lactosa</comentario>
+    <nutricion calorias="250" grasas="50" carbohidratos="100" proteinas="100" alcochol="0"></nutricion>
+  </receta>
+	<receta>
+    <titulo>Ensalada de otoño</titulo>
+    <ingredientes>
+        <ingrediente cantidad="150g">Zanahoria</ingrediente>
+        <ingrediente cantidad="15">Aceitunas</ingrediente>
+        <ingrediente cantidad="100g">Atún</ingrediente>
+				<ingrediente cantidad="10ml">Zumo de limón</ingrediente>
+				<ingrediente cantidad="1">Aguacate</ingrediente>
+    </ingredientes>
+    <preparacion>
+        <paso>Pelar la zanahoria</paso>
+        <paso>Rallar la zanahoria</paso>
+        <paso>Mezclar todos los ingredientes</paso>
+				<paso>Servir rápidamente para evitar la oxidación del aguacate</paso>
+    </preparacion>
+    <comentario>No apto para intolerantes a la lactosa</comentario>
+    <nutricion calorias="190" grasas="50" carbohidratos="70" proteinas="80" alcochol="0"></nutricion>
+  </receta>
+</recetas>

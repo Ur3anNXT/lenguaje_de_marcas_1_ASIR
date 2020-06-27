@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vuelos>
+    <vuelo numero="AEA9161">
+		<aerolinea>Air Europa</aerolinea>
+		<origen>Gran Canaria</origen>
+		<destino>Londres</destino>
+		<puerta>10</puerta>
+		<hora_salida>10:00 del 23 de abril de 2020</hora_salida>
+		<hora_llegada>17:30 del 23 de abril de 2020</hora_llegada>
+		<escalas>
+			<ciudad hora_salida="13:00 del 23 de abril de 2020">Madrid</ciudad>
+		</escalas>		
+		<retrasado>
+			<nueva_hora>11:00 del 23 de abril de 2020</nueva_hora>
+		</retrasado>
+	</vuelo>
+	<vuelo numero="TAM8115">
+		<aerolinea>LATAM Brasil</aerolinea>
+		<origen>Barcelona</origen>
+		<destino>Sao Paulo</destino>
+		<puerta>11</puerta>
+		<hora_salida>11:05 del 24 de abril de 2020</hora_salida>
+		<hora_llegada>18:20 del 24 de abril de 2020</hora_llegada>
+	</vuelo>
+        <vuelo numero="TBRAJ113">
+		<aerolinea>Rynair</aerolinea>
+		<origen>Sevilla</origen>
+		<destino>Madrid</destino>
+		<puerta>11</puerta>
+		<hora_salida>8:55 del 24 de abril de 2020</hora_salida>
+		<hora_llegada>10:20 del 24 de abril de 2020</hora_llegada>
+	</vuelo>
+</vuelos>

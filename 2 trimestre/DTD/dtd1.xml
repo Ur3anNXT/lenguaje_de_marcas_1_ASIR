@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<catalog>
+			<catalog>
+				<product name="secador_de_pelo" category="handtool" plant="chicago" inventory="instock">
+					<specifications weight="1.0" power="5.0V">es util</specifications>
+					<options adpater="optional" case="soft" finish="matte">es inalambrico</options>
+					<note>no abusar de ella sino es malo para la salud</note>
+					<price street="san jaciento" shipping="madre_mia_willy"></price>
+				</product>
+				
+			</catalog>
+	</catalog>

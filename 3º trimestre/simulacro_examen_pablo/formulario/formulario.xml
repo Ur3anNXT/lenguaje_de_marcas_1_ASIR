@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="formulario.xsl"?> 
+<formulario>
+	<campo>Nombre</campo>
+	<campo>Email</campo>
+	<campo>Edad</campo>	
+	<campo>Altura</campo>	
+	<campo>Sexo</campo>	
+	<campo>Peso</campo>	
+	<campo>IMC</campo>
+	<campo>Porcentaje de grasa corporal</campo>	
+	<campo>Velocidad</campo>
+	<campo>Masa muscular</campo>
+</formulario>

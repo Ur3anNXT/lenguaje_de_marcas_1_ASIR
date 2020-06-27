@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="meteo.xsl"?>
+<meteo>
+    <fecha>23/04/2020</fecha>
+	<hora>10:20</hora>
+	<ciudades>
+		<ciudad>
+			<nombre>Huelva</nombre>
+			<temperatura>12</temperatura>
+			<humedad>71</humedad>
+			<viento>8</viento>
+			<precipitaciones>0</precipitaciones>
+		</ciudad>
+		<ciudad>
+			<nombre>Murcia</nombre>
+			<temperatura>13</temperatura>
+			<humedad>77</humedad>
+			<viento>2</viento>
+			<precipitaciones>0</precipitaciones>
+		</ciudad>
+		<ciudad>
+			<nombre>Sevilla</nombre>
+			<temperatura>15</temperatura>
+			<humedad>72</humedad>
+			<viento>9</viento>
+			<precipitaciones>0</precipitaciones>
+		</ciudad>
+        <ciudad>
+    		<nombre>Mordor</nombre>
+			<temperatura>66</temperatura>
+			<humedad>62</humedad>
+			<viento>0</viento>
+			<precipitaciones>0</precipitaciones>
+		</ciudad>
+	</ciudades>
+</meteo>

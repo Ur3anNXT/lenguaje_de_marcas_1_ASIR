@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="actores.xsl"?> 
+<actores>
+    <actor>
+    	<nombre>Antonio Banderas</nombre>
+		<edad>58</edad>
+		<nacionalidad>española</nacionalidad>
+		<premios>
+			<oscars>0</oscars>
+			<globos>0</globos>
+		</premios>
+	</actor>	
+	<actor>
+		<nombre>Johnny Depp</nombre>
+		<edad>55</edad>
+		<nacionalidad>estadounidense</nacionalidad>
+		<premios>
+			<oscars>0</oscars>
+			<globos>1</globos>
+		</premios>
+	</actor>	
+	<actor>
+		<nombre>Sean Penn</nombre>
+		<edad>58</edad>
+		<nacionalidad>estadounidense</nacionalidad>
+		<premios>
+			<oscars>2</oscars>
+			<globos>1</globos>
+		</premios>
+	</actor>
+	<actor>
+		<nombre>Brad Pitt</nombre>
+		<edad>55</edad>
+		<nacionalidad>estadounidense</nacionalidad>
+		<premios>
+			<oscars>0</oscars> <!-- Tiene uno como productor, pero es info de actores -->
+			<globos>1</globos>
+		</premios>
+	</actor>	
+	<actor>
+		<nombre>Samuel L. Jackson</nombre>
+		<edad>70</edad>
+		<nacionalidad>estadounidense</nacionalidad>
+		<premios>
+			<oscars>0</oscars>
+			<globos>0</globos>
+		</premios>
+	</actor>	
+	<actor>
+		<nombre>Leonardo Di Caprio</nombre>
+		<edad>44</edad>
+		<nacionalidad>estadounidense</nacionalidad>
+		<premios>
+			<oscars>1</oscars>
+			<globos>2</globos>
+		</premios>
+	</actor>
+	<actor>
+		<nombre>Daniel Day Lewis</nombre>
+		<edad>61</edad>
+		<nacionalidad>irlandesa</nacionalidad>
+		<premios>
+			<oscars>3</oscars>
+			<globos>2</globos>
+		</premios>
+	</actor>
+	<actor>
+		<nombre>Javier Bardem</nombre>
+		<edad>50</edad>
+		<nacionalidad>española</nacionalidad>
+		<premios>
+			<oscars>1</oscars>
+			<globos>1</globos>
+		</premios>
+	</actor>		
+</actores>

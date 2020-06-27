@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE factura [
+	<!ELEMENT factura (datos_emisor, datos_cliente, detalle_factura*)>
+	  	<!ATTLIST factura numero CDATA #REQUIRED>
+        <!ATTLIST factura fecha CDATA #REQUIRED>
+
+	<!ELEMENT datos_emisor (nombre, cif, telefono)>
+		<!ELEMENT  nombre (#PCDATA)>
+		<!ELEMENT  cif (#PCDATA)>
+		<!ELEMENT  telefono (#PCDATA)>
+
+	<!ELEMENT datos_cliente (nombre, cif, telefono)>
+
+	<!ELEMENT detalle_factura (linea)>
+		<!ATTLIST detalle_factura importe CDATA #REQUIRED>
+		
+	<!ELEMENT linea (descripcion, cantidad, oferta?, pvp)>
+		<!ATTLIST linea codigo-articulo ID #REQUIRED>
+		<!ATTLIST linea tipos (libro|dvd|varios)>
+		<!ELEMENT  descripcion (#PCDATA)>
+		<!ELEMENT cantidad (#PCDATA)>
+		<!ELEMENT oferta EMPTY>
+		<!ELEMENT pvp (#PCDATA)>
+		
+]>
+
+<factura numero="27" fecha="18/12/2013">
+		<datos_emisor>
+			<nombre>Libreria Perez</nombre>
+			<cif>CIF 44555666B</cif>
+			<telefono>Telefono: 777888999</telefono>
+		</datos_emisor>
+		<datos_cliente>
+			<nomnbre>Biblioteca Txantrea</nomnbre>
+			<cif>CIF: 33111222A</cif>
+			<telefono>Telefono: 333999444</telefono>
+		</datos_cliente>
+		<detalle_factura importe="85">
+			<linea codigo-articulo="AW7" tipos="libro">
+				<descripcion>Cruso HMTL</descripcion>
+				<cantidad>1</cantidad>
+				<oferta/>
+				<pvp>25</pvp>
+			</linea>
+			<linea codigo-articulo="CP%" tipos="DVD">
+				<descripcion>Analitica Web 2.0</descripcion>
+				<cantidad>1</cantidad>
+				<pvp>30</pvp>
+			</linea>
+		</detalle_factura>
+</factura>

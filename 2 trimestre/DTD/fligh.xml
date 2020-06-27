@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE trayectos [
+	<!ELEMENT trayectos (trayecto+)>
+		<!ELEMENT trayecto (orgien, destino, hora, precio, carretera, pasajeros)>
+			<!ATTLIST trayecto codigo ID #REQUIRED>
+			<!ELEMENT origen (#PCDATA)>
+			<!ELEMENT destino (#PCDATA)>
+			<!ELEMENT fecha (#PCDATA)>
+			<!ELEMENT hora (#PCDATA)>
+			<!ELEMENT precio (#PCDATA)>
+			<!ELEMENT carretera (#PCDATA)>
+				<!ATTLIST carretera tipo (Autopista|autovia| nacional)  >
+		<!ELEMENT pasajeros (pasajero+)>
+			<!ELEMENT pasajero (nombre, apellido, edad)>
+			<!ELEMENT nombre (#PCDATA)>
+			<!ELEMENT apellido (#PCDATA)>
+			<!ELEMENT edad (#PCDATA)>
+			<!ATTLIST pasajero conductor CDATA #IMPLIED>
+]>
+<trayectos>
+	<trayecto codigo='V1'>
+		<orgien>Valencia</orgien>
+		<destino>Sevilla</destino>
+		<fecha>3/05/21</fecha>
+		<hora>17:05</hora>
+		<precio>30</precio>
+		<carretera tipo='autopista'>Autopista-A320</carretera>
+		<pasajeros>
+			<pasajero>
+				<nombre>Marcos</nombre>
+				<apellido>Lopez</apellido>
+				<edad>27</edad>
+			</pasajero>
+			<pasajero conductor='si'>
+				<nombre>Javier</nombre>
+				<apellido>Gonzalez</apellido>
+				<edad>27</edad>
+			</pasajero>
+		</pasajeros>
+	</trayecto>
+</trayectos>
